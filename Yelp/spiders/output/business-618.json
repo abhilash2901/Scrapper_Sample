@@ -1,0 +1,51 @@
+{
+    "address": "1703 Thonotosassa Rd\nSte A",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "Family Medical Specialists of Florida, PLC",
+    "categories": [
+        "Family Practice"
+    ],
+    "city": "Plant City",
+    "external_system_unique_id": 618,
+    "friday_close_time": null,
+    "friday_open_time": null,
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": null,
+    "monday_open_time": null,
+    "phone": [
+        "(813) 344-5066"
+    ],
+    "photos": [
+        {
+            "description": "Photo of Family Medical Specialists of Florida, PLC - Plant City, FL, United States",
+            "url": "https://s3-media3.fl.yelpcdn.com/bphoto/rlKiYu8iY2ue1yTf-Dquww/ls.jpg"
+        },
+        {
+            "description": "Family Medical Specialists of Florida,\u2026",
+            "url": "https://s3-media1.fl.yelpcdn.com/bphoto/P-zMNcGbKrszYOK8ZJUfJQ/ls.jpg"
+        },
+        {
+            "description": "Photo of Family Medical Specialists of Florida, PLC - Plant City, FL, United States",
+            "url": "https://s3-media1.fl.yelpcdn.com/bphoto/oHiUvSj762G_esPXrZF50A/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": null,
+    "saturday_open_time": null,
+    "state": "FL",
+    "sunday_close_time": null,
+    "sunday_open_time": null,
+    "thursday_close_time": null,
+    "thursday_open_time": null,
+    "tuesday_close_time": null,
+    "tuesday_open_time": null,
+    "website": "fmsfl.com",
+    "wednesday_close_time": null,
+    "wednesday_open_time": null,
+    "yelp_id": "4bfFPyJWcU10JdmgHZBTVQ",
+    "zip": "33563"
+}

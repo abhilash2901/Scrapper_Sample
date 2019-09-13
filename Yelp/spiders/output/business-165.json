@@ -1,0 +1,38 @@
+{
+    "address": "120 Medical Blvd",
+    "monday_open_time": "8:00 am",
+    "categories": [
+        "Ophthalmologists"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "The Eye Center",
+    "lat": null,
+    "price": null,
+    "zip": "34609",
+    "tuesday_close_time": "5:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "5:00 pm",
+    "state": "FL",
+    "yelp_id": "dGI9dROlvAHdKAAzL4vkGQ",
+    "thursday_open_time": "8:00 am",
+    "saturday_close_time": "Closed",
+    "external_system_unique_id": 165,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "saturday_open_time": "Closed",
+    "phone": [
+        "+1-352-683-4500"
+    ],
+    "friday_open_time": "8:00 am",
+    "friday_close_time": "1:00 pm",
+    "website": "youreyecenter.com",
+    "city": "Spring Hill",
+    "monday_close_time": "5:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "8:00 am",
+    "lng": null,
+    "tuesday_open_time": "8:00 am"
+}

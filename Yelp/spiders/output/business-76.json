@@ -1,0 +1,47 @@
+{
+    "address": "1050 Old Camp Rd\nSte 230",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "St. Luke\u2019s at The Villages",
+    "categories": [
+        "Ophthalmologists"
+    ],
+    "city": "The Villages",
+    "external_system_unique_id": 76,
+    "friday_close_time": "5:00 pm",
+    "friday_open_time": "8:00 am",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "5:00 pm",
+    "monday_open_time": "8:00 am",
+    "phone": [
+        "+1-352-350-8484"
+    ],
+    "photos": [
+        {
+            "description": "Photo of St. Luke's at The Villages - The Villages, FL, United States",
+            "url": "https://s3-media4.fl.yelpcdn.com/bphoto/IhCPaUFVp6WQohi_p9JMbg/ls.jpg"
+        },
+        {
+            "description": "Photo of St. Luke's at The Villages - The Villages, FL, United States",
+            "url": "https://s3-media2.fl.yelpcdn.com/bphoto/Mv3hLJLcPdKBxF67MxTl-A/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "Closed",
+    "saturday_open_time": "Closed",
+    "state": "FL",
+    "sunday_close_time": "Closed",
+    "sunday_open_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "thursday_open_time": "8:00 am",
+    "tuesday_close_time": "5:00 pm",
+    "tuesday_open_time": "8:00 am",
+    "website": "stlukeseye.com",
+    "wednesday_close_time": "5:00 pm",
+    "wednesday_open_time": "8:00 am",
+    "yelp_id": "X9fyEA0gKXE3Dx4PuM7EHg",
+    "zip": "32162"
+}

@@ -1,0 +1,43 @@
+{
+    "address": "2902 59th St W",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "Southwest Florida Medicine",
+    "categories": [
+        "Family Practice"
+    ],
+    "city": "Bradenton",
+    "external_system_unique_id": 624,
+    "friday_close_time": "5:00 pm",
+    "friday_open_time": "8:00 am",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "5:00 pm",
+    "monday_open_time": "8:00 am",
+    "phone": [
+        "+1-941-877-7000"
+    ],
+    "photos": [
+        {
+            "description": "Azim Lalani MD",
+            "url": "https://s3-media3.fl.yelpcdn.com/bphoto/V3VaoBWWGCGaS9zdbWt0rQ/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "Closed",
+    "saturday_open_time": "Closed",
+    "state": "FL",
+    "sunday_close_time": "Closed",
+    "sunday_open_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "thursday_open_time": "8:00 am",
+    "tuesday_close_time": "5:00 pm",
+    "tuesday_open_time": "8:00 am",
+    "website": "swflmd.com",
+    "wednesday_close_time": "5:00 pm",
+    "wednesday_open_time": "8:00 am",
+    "yelp_id": "NR9Mxd6N9Hw0Si_fI4qlPQ",
+    "zip": "34209"
+}

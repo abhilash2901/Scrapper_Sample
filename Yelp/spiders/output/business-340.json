@@ -1,0 +1,43 @@
+{
+    "address": "5535 Memorial Hwy",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "Foundational Health",
+    "categories": [
+        "Family Practice"
+    ],
+    "city": "Tampa",
+    "external_system_unique_id": 340,
+    "friday_close_time": null,
+    "friday_open_time": null,
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": null,
+    "monday_open_time": null,
+    "phone": [
+        "(813) 574-4869"
+    ],
+    "photos": [
+        {
+            "description": "Foundational Health",
+            "url": "https://s3-media4.fl.yelpcdn.com/bphoto/9T5EXLyPPEOYvn1IsStA5Q/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": null,
+    "saturday_open_time": null,
+    "state": "FL",
+    "sunday_close_time": null,
+    "sunday_open_time": null,
+    "thursday_close_time": null,
+    "thursday_open_time": null,
+    "tuesday_close_time": null,
+    "tuesday_open_time": null,
+    "website": null,
+    "wednesday_close_time": null,
+    "wednesday_open_time": null,
+    "yelp_id": "vl-JEejYxVGwVJ8Lb7BemA",
+    "zip": "33634"
+}

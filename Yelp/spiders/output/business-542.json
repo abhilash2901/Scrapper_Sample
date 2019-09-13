@@ -1,0 +1,40 @@
+{
+    "address": "2605 W Lake Mary Blvd\nSte 119\nPark Place",
+    "monday_open_time": "8:00 am",
+    "categories": [
+        "Family Practice",
+        "Obstetricians & Gynecologists",
+        "Sports Medicine"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "Multicare Physicians",
+    "lat": null,
+    "price": null,
+    "zip": "32746",
+    "tuesday_close_time": "5:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "6:00 pm",
+    "state": "FL",
+    "yelp_id": "k_eA-Jd13O1H2TDlA_MiCw",
+    "thursday_open_time": "8:00 am",
+    "saturday_close_time": "5:00 pm",
+    "external_system_unique_id": 542,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "saturday_open_time": "8:00 am",
+    "phone": [
+        "(407) 878-7990"
+    ],
+    "friday_open_time": "8:00 am",
+    "friday_close_time": "5:00 pm",
+    "website": "multicaredocs.com",
+    "city": "Lake Mary",
+    "monday_close_time": "5:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "9:00 am",
+    "lng": null,
+    "tuesday_open_time": "8:00 am"
+}

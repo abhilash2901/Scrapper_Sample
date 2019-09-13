@@ -1,0 +1,43 @@
+{
+    "address": "1307 Providence Rd",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "Biggers Family Medicine",
+    "categories": [
+        "Family Practice"
+    ],
+    "city": "Brandon",
+    "external_system_unique_id": 91,
+    "friday_close_time": "5:00 pm",
+    "friday_open_time": "8:30 am",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "5:00 pm",
+    "monday_open_time": "8:30 am",
+    "phone": [
+        "+1-813-655-4646"
+    ],
+    "photos": [
+        {
+            "description": "Waiting Room. \u00a0WIFI available",
+            "url": "https://s3-media1.fl.yelpcdn.com/bphoto/CQpbWnd4YLd4YwgpCuOCCQ/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "Closed",
+    "saturday_open_time": "Closed",
+    "state": "FL",
+    "sunday_close_time": "Closed",
+    "sunday_open_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "thursday_open_time": "8:30 am",
+    "tuesday_close_time": "5:00 pm",
+    "tuesday_open_time": "8:30 am",
+    "website": "biggersfamilymedicine.com",
+    "wednesday_close_time": "5:00 pm",
+    "wednesday_open_time": "8:30 am",
+    "yelp_id": "Tl24yZWDtZy5_LfDfsWofw",
+    "zip": "33511"
+}

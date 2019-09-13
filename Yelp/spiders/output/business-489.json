@@ -1,0 +1,43 @@
+{
+    "address": "405 N Clyde Morris Blvd",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "Urgent Care & Family Practice Center",
+    "categories": [
+        "Family Practice"
+    ],
+    "city": "Daytona Beach",
+    "external_system_unique_id": 489,
+    "friday_close_time": "7:00 pm",
+    "friday_open_time": "9:00 am",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "7:00 pm",
+    "monday_open_time": "9:00 am",
+    "phone": [
+        "(386) 506-8555"
+    ],
+    "photos": [
+        {
+            "description": "Photo of Urgent Care & Family Practice Center - Daytona Beach, FL, United States",
+            "url": "https://s3-media2.fl.yelpcdn.com/bphoto/HvN2tz9oTG-5hLiPkjHxzQ/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "5:00 pm",
+    "saturday_open_time": "10:00 am",
+    "state": "FL",
+    "sunday_close_time": "4:00 pm",
+    "sunday_open_time": "10:00 am",
+    "thursday_close_time": "7:00 pm",
+    "thursday_open_time": "9:00 am",
+    "tuesday_close_time": "7:00 pm",
+    "tuesday_open_time": "9:00 am",
+    "website": "urgentcareandfamilypracticece\u2026",
+    "wednesday_close_time": "7:00 pm",
+    "wednesday_open_time": "9:00 am",
+    "yelp_id": "l4Q-ZpIG2xEQ-X9SmHKjlg",
+    "zip": "32114"
+}

@@ -1,0 +1,54 @@
+{
+    "address": "102 Park Place Blvd",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "MDY Primary Care Medicine, PL",
+    "categories": [
+        "Family Practice",
+        "Weight Loss Centers",
+        "Medical Spas",
+        "Medical Spas"
+    ],
+    "city": "Davenport",
+    "external_system_unique_id": 620,
+    "friday_close_time": "5:00 pm",
+    "friday_open_time": "8:00 am",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "5:00 pm",
+    "monday_open_time": "8:00 am",
+    "phone": [
+        "(863) 422-0032"
+    ],
+    "photos": [
+        {
+            "description": "Photo of MDY Primary Care Medicine, PL - Davenport, FL, United States",
+            "url": "https://s3-media2.fl.yelpcdn.com/bphoto/N8FGIjYZbB7x0XXevaD-vw/ls.jpg"
+        },
+        {
+            "description": "Photo of MDY Primary Care Medicine, PL - Davenport, FL, United States",
+            "url": "https://s3-media3.fl.yelpcdn.com/bphoto/LPuIi1QcZOXLt9mKvcGUqw/ls.jpg"
+        },
+        {
+            "description": "Photo of MDY Primary Care Medicine, PL - Davenport, FL, United States",
+            "url": "https://s3-media4.fl.yelpcdn.com/bphoto/xcPKYHnVKLLdklGApv_New/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "Closed",
+    "saturday_open_time": "Closed",
+    "state": "FL",
+    "sunday_close_time": "Closed",
+    "sunday_open_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "thursday_open_time": "8:00 am",
+    "tuesday_close_time": "5:00 pm",
+    "tuesday_open_time": "8:00 am",
+    "website": "mdyprimarycaremedicine.com",
+    "wednesday_close_time": "5:00 pm",
+    "wednesday_open_time": "8:00 am",
+    "yelp_id": "w1_0I_o0CNnNJOnf2fQ6bw",
+    "zip": "33837"
+}

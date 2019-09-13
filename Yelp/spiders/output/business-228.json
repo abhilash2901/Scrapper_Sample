@@ -1,0 +1,41 @@
+{
+    "address": "120 Medical Blvd\nSte 100",
+    "monday_open_time": "8:00 am",
+    "categories": [
+        "Dermatologists",
+        "Medical Spas",
+        "Medical Spas",
+        "Laser Hair Removal"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "PHDermatology",
+    "lat": null,
+    "price": null,
+    "zip": "34609",
+    "tuesday_close_time": "5:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "5:00 pm",
+    "state": "FL",
+    "yelp_id": "zF1SkmrN4EHwxbtCvT26ww",
+    "thursday_open_time": "8:00 am",
+    "saturday_close_time": "Closed",
+    "external_system_unique_id": 228,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "saturday_open_time": "Closed",
+    "phone": [
+        "+1-855-743-4968"
+    ],
+    "friday_open_time": "8:00 am",
+    "friday_close_time": "5:00 pm",
+    "website": "phdermatology.com",
+    "city": "Spring Hill",
+    "monday_close_time": "5:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "8:00 am",
+    "lng": null,
+    "tuesday_open_time": "8:00 am"
+}

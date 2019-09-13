@@ -1,0 +1,40 @@
+{
+    "address": "321 SE 29th Pl\nSte 102",
+    "monday_open_time": "8:00 am",
+    "categories": [
+        "Internal Medicine",
+        "Ophthalmologists",
+        "Weight Loss Centers"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "Trinity Healthcare Medical Center",
+    "lat": null,
+    "price": null,
+    "zip": "34471",
+    "tuesday_close_time": "5:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "5:00 pm",
+    "state": "FL",
+    "yelp_id": "MBI_EODt6YaB9IexQ4PKGw",
+    "thursday_open_time": "8:00 am",
+    "saturday_close_time": "Closed",
+    "external_system_unique_id": 138,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "saturday_open_time": "Closed",
+    "phone": [
+        "(352) 512-0000"
+    ],
+    "friday_open_time": "8:00 am",
+    "friday_close_time": "5:00 pm",
+    "website": "thcmc.com",
+    "city": "Ocala",
+    "monday_close_time": "5:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "8:00 am",
+    "lng": null,
+    "tuesday_open_time": "8:00 am"
+}

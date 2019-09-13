@@ -1,0 +1,40 @@
+{
+    "address": "1962 N John Young Pkwy",
+    "monday_open_time": "8:00 am",
+    "categories": [
+        "Urgent Care",
+        "Medical Centers",
+        "Pediatricians"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "USA Medical Care ",
+    "lat": null,
+    "price": null,
+    "zip": "34741",
+    "tuesday_close_time": "6:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "6:00 pm",
+    "state": "FL",
+    "yelp_id": "GiaPYsizij1Wnkbl-Wvshw",
+    "thursday_open_time": "8:00 am",
+    "saturday_close_time": "2:00 pm",
+    "external_system_unique_id": 485,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "6:00 pm",
+    "saturday_open_time": "9:00 am",
+    "phone": [
+        "+1-866-218-1211"
+    ],
+    "friday_open_time": "8:00 am",
+    "friday_close_time": "6:00 pm",
+    "website": "usamedcare.com",
+    "city": "Kissimmee",
+    "monday_close_time": "6:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "8:00 am",
+    "lng": null,
+    "tuesday_open_time": "8:00 am"
+}

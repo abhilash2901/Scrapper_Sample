@@ -1,0 +1,780 @@
+2018-12-06 21:09:32,317 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:09:37,400 INFO: {"date": "Thu Dec  6 21:09:37 2018", "remote_addr": "127.0.0.1", "request_method": "GET", "response_status_code": "502", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 928d792a-8759-4b0a-872a-30f1e47d274f, User-Agent: PostmanRuntime/7.4.0, Accept: */*", "request_url": "http://localhost:3500/get_data?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 343]
+2018-12-06 21:09:37,401 INFO: 127.0.0.1 - - [06/Dec/2018 21:09:37] "GET /get_data?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:12:20,055 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 248, in run_batch
+    with open(input_file_path) as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/input.csv'
+2018-12-06 21:12:20,126 INFO: {"date": "Thu Dec  6 21:12:20 2018", "remote_addr": "127.0.0.1", "request_method": "GET", "response_status_code": "500", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 0f4773cc-2c39-4248-8825-5f8a7f1e99d3, User-Agent: PostmanRuntime/7.4.0, Accept: */*", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 343]
+2018-12-06 21:12:20,126 INFO: 127.0.0.1 - - [06/Dec/2018 21:12:20] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:13:19,219 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 248, in run_batch
+    with open(input_file_path) as csvfile:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/input.csv'
+2018-12-06 21:13:19,220 INFO: {"date": "Thu Dec  6 21:13:19 2018", "remote_addr": "127.0.0.1", "request_method": "GET", "response_status_code": "500", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Connection: keep-alive, Postman-Token: c314959c-2d7e-4712-a013-c72b017cdcd6, User-Agent: PostmanRuntime/7.4.0, Accept: */*", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 343]
+2018-12-06 21:13:19,220 INFO: 127.0.0.1 - - [06/Dec/2018 21:13:19] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:38:26,330 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 248, in run_batch
+    file = xlrd.open_workbook(base_dir_path + "/Research Offices.xlsx")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/input.csv'
+2018-12-06 21:38:26,331 INFO: {"date": "Thu Dec  6 21:38:26 2018", "remote_addr": "127.0.0.1", "request_method": "GET", "response_status_code": "500", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 8e033de1-7dd7-49d8-801d-9ff06b9c2ed4, User-Agent: PostmanRuntime/7.4.0, Accept: */*", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 343]
+2018-12-06 21:38:26,331 INFO: 127.0.0.1 - - [06/Dec/2018 21:38:26] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:39:36,627 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 248, in run_batch
+    sheet = file.sheet_by_index(0)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/input.csv'
+2018-12-06 21:39:36,628 INFO: {"date": "Thu Dec  6 21:39:36 2018", "remote_addr": "127.0.0.1", "request_method": "GET", "response_status_code": "500", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 3615d1f3-dddc-49df-a675-4417cdc1fbec, User-Agent: PostmanRuntime/7.4.0, Accept: */*", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 343]
+2018-12-06 21:39:36,628 INFO: 127.0.0.1 - - [06/Dec/2018 21:39:36] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:40:23,859 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:40:29,766 INFO: {"remote_addr": "127.0.0.1", "request_headers": "Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Accept-Encoding: gzip, deflate, Connection: keep-alive, Host: localhost:3500, Postman-Token: ed65810c-ed8c-4ffc-8d83-b4a80fa04a69", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com", "response_status_code": "502", "date": "Thu Dec  6 21:40:29 2018"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 338]
+2018-12-06 21:40:29,767 INFO: 127.0.0.1 - - [06/Dec/2018 21:40:29] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:46:43,602 INFO: {"remote_addr": "127.0.0.1", "request_headers": "Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Accept-Encoding: gzip, deflate, Connection: keep-alive, Host: localhost:3500, Postman-Token: be01c538-2d75-4c29-a6ff-bddc9b65ae54", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com", "response_status_code": "400", "date": "Thu Dec  6 21:46:43 2018"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 338]
+2018-12-06 21:46:43,637 INFO: 127.0.0.1 - - [06/Dec/2018 21:46:43] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:56:07,951 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:57:05,799 INFO: {"request_headers": "Host: localhost:3500, Postman-Token: f42f7385-8710-400a-9469-043839cfd271, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Connection: keep-alive, Accept: */*, Accept-Encoding: gzip, deflate", "response_status_code": "400", "remote_addr": "127.0.0.1", "date": "Thu Dec  6 21:57:05 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com", "request_method": "GET"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 338]
+2018-12-06 21:57:05,799 INFO: 127.0.0.1 - - [06/Dec/2018 21:57:05] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 21:58:25,357 INFO: {"request_headers": "Host: localhost:3500, Postman-Token: a953112c-9bcf-4b73-9269-eb381ea051ab, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Connection: keep-alive, Accept: */*, Accept-Encoding: gzip, deflate", "response_status_code": "400", "remote_addr": "127.0.0.1", "date": "Thu Dec  6 21:58:25 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com", "request_method": "GET"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 338]
+2018-12-06 21:58:25,358 INFO: 127.0.0.1 - - [06/Dec/2018 21:58:25] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 22:00:24,173 INFO: {"request_headers": "Host: localhost:3500, Postman-Token: 43d6647c-135a-42dc-b426-2b0baa9c60c5, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Connection: keep-alive, Accept: */*, Accept-Encoding: gzip, deflate", "response_status_code": "400", "remote_addr": "127.0.0.1", "date": "Thu Dec  6 22:00:24 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com", "request_method": "GET"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 338]
+2018-12-06 22:00:24,174 INFO: 127.0.0.1 - - [06/Dec/2018 22:00:24] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 22:01:54,466 INFO: {"request_headers": "Host: localhost:3500, Postman-Token: 86f29fee-56a8-4a72-9070-a3abfb201350, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Connection: keep-alive, Accept: */*, Accept-Encoding: gzip, deflate", "response_status_code": "400", "remote_addr": "127.0.0.1", "date": "Thu Dec  6 22:01:54 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com", "request_method": "GET"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 338]
+2018-12-06 22:01:54,466 INFO: 127.0.0.1 - - [06/Dec/2018 22:01:54] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 22:01:59,040 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-06 22:07:48,108 INFO: {"request_method": "GET", "date": "Thu Dec  6 22:07:48 2018", "response_status_code": "400", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: c1767316-f341-4c43-8101-dbf9a0fbacd5, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-06 22:07:48,108 INFO: 127.0.0.1 - - [06/Dec/2018 22:07:48] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 10:17:36,972 INFO: {"request_method": "GET", "date": "Fri Dec  7 10:17:36 2018", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: e86667e2-4434-497c-a5de-6d61040df4a8, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 10:17:37,032 INFO: 127.0.0.1 - - [07/Dec/2018 10:17:37] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 10:55:35,468 INFO: {"request_method": "GET", "date": "Fri Dec  7 10:55:35 2018", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: ab639b01-758a-453d-9e47-75fc1691b68c, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 10:55:35,480 INFO: 127.0.0.1 - - [07/Dec/2018 10:55:35] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 10:55:46,864 INFO: {"request_method": "GET", "date": "Fri Dec  7 10:55:46 2018", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: 31934326-974a-4561-9bcc-a1781ba560da, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 10:55:46,865 INFO: 127.0.0.1 - - [07/Dec/2018 10:55:46] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:00:11,410 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 288, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>
+2018-12-07 11:00:11,529 INFO: {"request_method": "GET", "date": "Fri Dec  7 11:00:11 2018", "response_status_code": "500", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: dd5c646f-9842-4de2-b2f4-e5e181bcbaa6, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 11:00:11,530 INFO: 127.0.0.1 - - [07/Dec/2018 11:00:11] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:00:11,631 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 693, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 288, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2018-12-07 11:00:11,632 INFO: {"request_method": "GET", "date": "Fri Dec  7 11:00:11 2018", "response_status_code": "500", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: b1626ab8-8929-4050-a3de-a289c68b47d4, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 11:00:11,632 INFO: 127.0.0.1 - - [07/Dec/2018 11:00:11] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:04:45,752 INFO: {"request_method": "GET", "date": "Fri Dec  7 11:04:45 2018", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: 2d23aaac-3f53-4e4f-b215-85f090eef5c9, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 11:04:45,752 INFO: 127.0.0.1 - - [07/Dec/2018 11:04:45] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:32:03,320 INFO: {"request_method": "GET", "date": "Fri Dec  7 11:32:03 2018", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: f76149ad-39f5-46c3-9560-cc110e717645, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 11:32:03,321 INFO: 127.0.0.1 - - [07/Dec/2018 11:32:03] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:32:36,460 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 288, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>
+2018-12-07 11:32:36,464 INFO: {"request_method": "GET", "date": "Fri Dec  7 11:32:36 2018", "response_status_code": "500", "remote_addr": "127.0.0.1", "request_headers": "Accept: */*, Cache-Control: no-cache, Postman-Token: fc95095e-207b-4625-979f-3a8a400a8755, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Connection: keep-alive", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 11:32:36,465 INFO: 127.0.0.1 - - [07/Dec/2018 11:32:36] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:34:00,132 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:40:29,870 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 11:51:58,913 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 12:02:38,043 INFO: {"remote_addr": "127.0.0.1", "response_status_code": "400", "date": "Fri Dec  7 12:02:38 2018", "request_headers": "Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Accept: */*, Postman-Token: 5d4e0cf5-3442-4bac-ba8a-e0fe793fa154, Cache-Control: no-cache, Connection: keep-alive", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 12:02:38,043 INFO: 127.0.0.1 - - [07/Dec/2018 12:02:38] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 12:50:55,043 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 12:55:26,795 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 12:55:26 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 98aa890e-4e14-4878-8149-a6a5042e3c5f, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "400", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 12:55:26,795 INFO: 127.0.0.1 - - [07/Dec/2018 12:55:26] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:01:17,781 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:01:17 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: effe45d4-742a-48ba-933a-add7a26a3b95, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "400", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:01:17,782 INFO: 127.0.0.1 - - [07/Dec/2018 13:01:17] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:10:06,855 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:10:06 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: a59a6288-251e-43fb-b371-80bc9ac2b6ce, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "400", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:10:06,855 INFO: 127.0.0.1 - - [07/Dec/2018 13:10:06] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:24:36,081 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:24:36 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 4c05a2af-71e4-4dcd-9beb-66b81d5f5350, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "400", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:24:36,081 INFO: 127.0.0.1 - - [07/Dec/2018 13:24:36] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:26:06,785 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:26:06 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 1332bcda-1963-42b9-8e66-6937ac922681, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:26:06,786 INFO: 127.0.0.1 - - [07/Dec/2018 13:26:06] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:26:17,452 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:26:17 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: e787078c-9a95-42cc-9acb-97a0f139dbbe, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:26:17,453 INFO: 127.0.0.1 - - [07/Dec/2018 13:26:17] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:26:29,502 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:26:29 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 580a9739-7266-4355-8981-86d85c845c03, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:26:29,502 INFO: 127.0.0.1 - - [07/Dec/2018 13:26:29] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:26:49,978 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:26:49 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: e3849cac-a8e8-4055-8e4b-a0e3a7fcad3d, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:26:49,979 INFO: 127.0.0.1 - - [07/Dec/2018 13:26:49] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:26:52,859 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:26:52 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 75e00c4d-e4ba-4813-8feb-2116d8402ae3, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:26:52,859 INFO: 127.0.0.1 - - [07/Dec/2018 13:26:52] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:00,864 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:00 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: b13c7cf9-c7e8-40f0-8b7f-88e94611d07a, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:00,865 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:00] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:03,094 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:03 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 8f5dd298-3528-4410-a98d-d921eab0ebad, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:03,094 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:03] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:05,201 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:05 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 7b6996d6-9e72-4c6d-be0e-099ade8024a8, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:05,203 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:05] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:15,999 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:15 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 3a114b7f-61f6-46e9-8f2d-467526e50fc3, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:16,000 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:16] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:18,021 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:18 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 319bc6a1-cc2c-4fcd-980c-7151aceac818, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:18,023 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:18] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:19,986 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:19 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 2b95e96b-cb30-4318-a5ec-9dff61cefdcf, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:19,987 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:19] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:31,795 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 693, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 288, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2018-12-07 13:28:31,906 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:31 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: a51487f9-8dd6-4ffb-8b06-2633147d7345, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "500", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:31,908 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:31] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:28:39,172 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:28:39 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 64d1e29f-fcaa-49a3-b071-116887573ee4, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Focala-family-medical-center-ocala&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:28:39,173 INFO: 127.0.0.1 - - [07/Dec/2018 13:28:39] "GET /run_batch?url=https://en.yelp.com.ph/biz/ocala-family-medical-center-ocala&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:29:24,912 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:29:24 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: 6228f2e4-d952-40bf-8fd3-e12cf05f6370, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:29:24,913 INFO: 127.0.0.1 - - [07/Dec/2018 13:29:24] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:30:11,919 INFO: {"remote_addr": "127.0.0.1", "request_method": "GET", "date": "Fri Dec  7 13:30:11 2018", "request_headers": "Cache-Control: no-cache, Connection: keep-alive, Postman-Token: dd54dad2-4d52-4fc7-8dfa-75f81bd59027, Accept: */*, Accept-Encoding: gzip, deflate, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:30:11,919 INFO: 127.0.0.1 - - [07/Dec/2018 13:30:11] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:30:15,707 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:30:19,281 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:30:19 2018", "request_headers": "Postman-Token: 1648038c-5abc-4240-be8c-e770ea41c14c, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:30:19,282 INFO: 127.0.0.1 - - [07/Dec/2018 13:30:19] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:30:21,521 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:30:21 2018", "request_headers": "Postman-Token: 6e3b38df-6900-4115-b04a-fb96f3a15bbc, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:30:21,522 INFO: 127.0.0.1 - - [07/Dec/2018 13:30:21] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:30:23,441 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:30:23 2018", "request_headers": "Postman-Token: dcc47f1f-5472-489e-92f4-4368c9148eff, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:30:23,442 INFO: 127.0.0.1 - - [07/Dec/2018 13:30:23] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:30:25,111 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:30:25 2018", "request_headers": "Postman-Token: a734da74-8474-4ef8-9db1-2e4a0b126c03, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:30:25,111 INFO: 127.0.0.1 - - [07/Dec/2018 13:30:25] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:36:25,995 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:36:25 2018", "request_headers": "Postman-Token: 424a6548-93d6-43b2-9d86-d8de212bf24a, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:36:25,996 INFO: 127.0.0.1 - - [07/Dec/2018 13:36:25] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:36:56,089 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:36:56 2018", "request_headers": "Postman-Token: a66537ac-1cf2-4df7-bf42-af5deb61dd06, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fen.yelp.com.ph%2Fbiz%2Fcentral-florida-hospitalist-partners-apopka&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:36:56,090 INFO: 127.0.0.1 - - [07/Dec/2018 13:36:56] "GET /run_batch?url=https://en.yelp.com.ph/biz/central-florida-hospitalist-partners-apopka&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:37:13,355 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:37:13 2018", "request_headers": "Postman-Token: cec9f088-a514-4431-bb13-301b5998b78e, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:37:13,355 INFO: 127.0.0.1 - - [07/Dec/2018 13:37:13] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-07 13:37:16,269 INFO: {"request_method": "GET", "date": "Fri Dec  7 13:37:16 2018", "request_headers": "Postman-Token: 301d5317-8fb1-4a6d-815e-90b62ec54889, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Host: localhost:3500, Connection: keep-alive, Accept-Encoding: gzip, deflate", "response_status_code": "502", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-07 13:37:16,270 INFO: 127.0.0.1 - - [07/Dec/2018 13:37:16] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:16:31,894 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:23:47,763 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:26:25,589 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:29:54,332 INFO: {"response_status_code": "400", "date": "Sat Dec  8 16:29:54 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_headers": "Host: localhost:3500, Accept: */*, Connection: keep-alive, Cache-Control: no-cache, Postman-Token: c51ec645-9275-41dc-a2fb-a8acf11e2205, User-Agent: PostmanRuntime/7.4.0, Accept-Encoding: gzip, deflate", "remote_addr": "127.0.0.1", "request_method": "GET"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:29:54,332 INFO: 127.0.0.1 - - [08/Dec/2018 16:29:54] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:32:55,145 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:36:18,732 INFO: {"request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_headers": "Postman-Token: 76955508-7f56-4457-a2a3-d98a898989d3, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Accept: */*, Accept-Encoding: gzip, deflate, Connection: keep-alive, Cache-Control: no-cache", "request_method": "GET", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 16:36:18 2018", "response_status_code": "400"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:36:18,733 INFO: 127.0.0.1 - - [08/Dec/2018 16:36:18] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:37:39,337 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:39:04,365 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:42:17,497 INFO: {"request_headers": "Connection: keep-alive, User-Agent: PostmanRuntime/7.4.0, Accept: */*, Postman-Token: 16cc7d85-2ed2-4b34-bc79-65a7b79d9728, Cache-Control: no-cache, Host: localhost:3500, Accept-Encoding: gzip, deflate", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 16:42:17 2018"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:42:17,498 INFO: 127.0.0.1 - - [08/Dec/2018 16:42:17] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:42:27,757 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:42:40,314 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:42:45,014 INFO: {"response_status_code": "502", "request_headers": "Connection: keep-alive, Cache-Control: no-cache, Postman-Token: 3f82a2f5-7882-4114-94b8-789d5fd59d7c, Host: localhost:3500, Accept-Encoding: gzip, deflate, Accept: */*, User-Agent: PostmanRuntime/7.4.0", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "date": "Sat Dec  8 16:42:45 2018", "request_method": "GET", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:42:45,015 INFO: 127.0.0.1 - - [08/Dec/2018 16:42:45] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:43:49,180 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:43:56,026 INFO: {"date": "Sat Dec  8 16:43:56 2018", "request_headers": "Connection: keep-alive, Cache-Control: no-cache, Host: localhost:3500, Accept-Encoding: gzip, deflate, Accept: */*, Postman-Token: fcc20949-834d-40ee-8241-ee1dc58d89ca, User-Agent: PostmanRuntime/7.4.0", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:43:56,026 INFO: 127.0.0.1 - - [08/Dec/2018 16:43:56] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:44:10,137 INFO: {"date": "Sat Dec  8 16:44:10 2018", "request_headers": "Connection: keep-alive, Cache-Control: no-cache, Host: localhost:3500, Accept-Encoding: gzip, deflate, Accept: */*, Postman-Token: 02684925-0c17-4502-8a0c-c6daa283b61b, User-Agent: PostmanRuntime/7.4.0", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:44:10,138 INFO: 127.0.0.1 - - [08/Dec/2018 16:44:10] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:44:12,651 INFO: {"date": "Sat Dec  8 16:44:12 2018", "request_headers": "Connection: keep-alive, Cache-Control: no-cache, Host: localhost:3500, Accept-Encoding: gzip, deflate, Accept: */*, Postman-Token: 582df8bc-2ebd-457f-9cdd-5f2aa083a857, User-Agent: PostmanRuntime/7.4.0", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:44:12,652 INFO: 127.0.0.1 - - [08/Dec/2018 16:44:12] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:44:15,290 INFO: {"date": "Sat Dec  8 16:44:15 2018", "request_headers": "Connection: keep-alive, Cache-Control: no-cache, Host: localhost:3500, Accept-Encoding: gzip, deflate, Accept: */*, Postman-Token: ea1bf028-2a28-494b-9c96-b06eb50cdef2, User-Agent: PostmanRuntime/7.4.0", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:44:15,291 INFO: 127.0.0.1 - - [08/Dec/2018 16:44:15] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:49:23,960 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:51:26,548 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:53:28,309 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 693, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 288, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2018-12-08 16:53:28,335 INFO: {"response_status_code": "500", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "date": "Sat Dec  8 16:53:28 2018", "request_method": "GET", "request_headers": "User-Agent: PostmanRuntime/7.4.0, Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Postman-Token: 63b49ffc-07cb-4cc1-aaa5-2ceca12a7409, Connection: keep-alive, Accept: */*, Host: localhost:3500", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 16:53:28,336 INFO: 127.0.0.1 - - [08/Dec/2018 16:53:28] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 16:59:12,098 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:06:32,782 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:09:40,539 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:11:18,423 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:14:42,478 INFO: {"response_status_code": "400", "remote_addr": "127.0.0.1", "request_headers": "Connection: keep-alive, User-Agent: PostmanRuntime/7.4.0, Accept-Encoding: gzip, deflate, Postman-Token: 240ac2be-f180-4762-9217-b04b2ec1b651, Host: localhost:3500, Cache-Control: no-cache, Accept: */*", "request_method": "GET", "date": "Sat Dec  8 17:14:42 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:14:42,479 INFO: 127.0.0.1 - - [08/Dec/2018 17:14:42] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:19:52,202 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:19:56,489 INFO: {"date": "Sat Dec  8 17:19:56 2018", "remote_addr": "127.0.0.1", "response_status_code": "502", "request_method": "GET", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Connection: keep-alive, Cache-Control: no-cache, Postman-Token: b65a4d87-e79b-469d-8589-b22f6fe674b4, Accept: */*", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:19:56,489 INFO: 127.0.0.1 - - [08/Dec/2018 17:19:56] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:20:03,189 INFO: {"date": "Sat Dec  8 17:20:03 2018", "remote_addr": "127.0.0.1", "response_status_code": "502", "request_method": "GET", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Connection: keep-alive, Cache-Control: no-cache, Postman-Token: 12c10d0e-d977-4240-b272-864efc0a9d0a, Accept: */*", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:20:03,190 INFO: 127.0.0.1 - - [08/Dec/2018 17:20:03] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:24:24,139 INFO: {"date": "Sat Dec  8 17:24:24 2018", "remote_addr": "127.0.0.1", "response_status_code": "400", "request_method": "GET", "request_headers": "Host: localhost:3500, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Connection: keep-alive, Cache-Control: no-cache, Postman-Token: 31a27f58-a6ce-44d6-be66-8ddd383adf14, Accept: */*", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:24:24,140 INFO: 127.0.0.1 - - [08/Dec/2018 17:24:24] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:24:58,189 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:28:43,324 INFO: {"request_headers": "Accept: */*, Postman-Token: a7efbd29-007e-45b4-ada2-8ce7b59baee0, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Connection: keep-alive, Accept-Encoding: gzip, deflate", "request_method": "GET", "response_status_code": "400", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "date": "Sat Dec  8 17:28:43 2018", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:28:43,325 INFO: 127.0.0.1 - - [08/Dec/2018 17:28:43] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:31:14,184 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:32:41,056 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1260, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python3.5/ssl.py", line 377, in wrap_socket
+    _context=self)
+  File "/usr/lib/python3.5/ssl.py", line 752, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 988, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 633, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 288, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
+2018-12-08 17:32:41,065 INFO: {"request_headers": "Postman-Token: 270e3f2b-8426-4e91-9023-277deb5ee406, Accept: */*, Connection: keep-alive, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0, Accept-Encoding: gzip, deflate, Cache-Control: no-cache", "date": "Sat Dec  8 17:32:41 2018", "request_method": "GET", "remote_addr": "127.0.0.1", "response_status_code": "500", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:32:41,065 INFO: 127.0.0.1 - - [08/Dec/2018 17:32:41] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:34:38,797 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 239, in run_batch
+    site = request_arguments['site'][0]
+KeyError: 'site'
+2018-12-08 17:34:38,798 INFO: {"request_headers": "Cookie: Pycharm-b33ba6c=3ac0b204-90d8-4217-b08c-b0206e4e0caa; _xsrf=2|85b6fe4b|6c87eee11b824cb1987e28ca28c93c83|1542871687; username-localhost-8888=\"2|1:0|10:1542872503|23:username-localhost-8888|44:ZDIxMGU0ZTQ1Yzk0NGI0Nzg2Y2NmYTdjZmJhNDYzMzQ=|bf794e545d4dacfa2012039633bbdd4914b34f65bf0c891291de90a213ecb062\", Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8, Accept-Language: en-GB,en-US;q=0.9,en;q=0.8, Connection: keep-alive, Host: localhost:3500, User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36, Accept-Encoding: gzip, deflate, br, Upgrade-Insecure-Requests: 1", "date": "Sat Dec  8 17:34:38 2018", "request_method": "GET", "remote_addr": "127.0.0.1", "response_status_code": "500", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:34:38,798 INFO: 127.0.0.1 - - [08/Dec/2018 17:34:38] "GET /run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:34:39,041 INFO: 127.0.0.1 - - [08/Dec/2018 17:34:39] "GET /favicon.ico HTTP/1.1" 404 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:35:33,456 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:38:59,980 INFO: {"request_method": "GET", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 17:38:59 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "400", "request_headers": "Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Connection: keep-alive, User-Agent: PostmanRuntime/7.4.0, Postman-Token: 9e213818-c231-4e81-81a3-d656ffd61970, Host: localhost:3500, Accept: */*"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:38:59,980 INFO: 127.0.0.1 - - [08/Dec/2018 17:38:59] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:40:19,754 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 239, in run_batch
+    site = request_arguments['site'][0]
+KeyError: 'site'
+2018-12-08 17:40:19,758 INFO: {"request_method": "GET", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 17:40:19 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin", "response_status_code": "500", "request_headers": "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8, Accept-Encoding: gzip, deflate, br, User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36, Upgrade-Insecure-Requests: 1, Host: localhost:3500, Connection: keep-alive, Cookie: Pycharm-b33ba6c=3ac0b204-90d8-4217-b08c-b0206e4e0caa; _xsrf=2|85b6fe4b|6c87eee11b824cb1987e28ca28c93c83|1542871687; username-localhost-8888=\"2|1:0|10:1542872503|23:username-localhost-8888|44:ZDIxMGU0ZTQ1Yzk0NGI0Nzg2Y2NmYTdjZmJhNDYzMzQ=|bf794e545d4dacfa2012039633bbdd4914b34f65bf0c891291de90a213ecb062\", Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:40:19,758 INFO: 127.0.0.1 - - [08/Dec/2018 17:40:19] "GET /run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:40:27,548 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:43:48,375 INFO: {"request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "request_headers": "Cache-Control: no-cache, Accept: */*, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Accept-Encoding: gzip, deflate, Connection: keep-alive, Postman-Token: 114d8dd6-8971-4858-889c-09c04253ad8b", "date": "Sat Dec  8 17:43:48 2018", "remote_addr": "127.0.0.1", "response_status_code": "400"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:43:48,375 INFO: 127.0.0.1 - - [08/Dec/2018 17:43:48] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:50:06,344 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:50:14,367 INFO: {"request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "response_status_code": "502", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 17:50:14 2018", "request_headers": "Accept-Encoding: gzip, deflate, Connection: keep-alive, Postman-Token: fc935958-efdd-4e47-9559-6b58f5b48ba5, Host: localhost:3500, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept: */*"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 17:50:14,367 INFO: 127.0.0.1 - - [08/Dec/2018 17:50:14] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 17:51:13,128 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:03:37,060 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:12:33,867 INFO: {"date": "Sat Dec  8 18:12:33 2018", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502", "request_method": "GET", "request_headers": "Accept: */*, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Cache-Control: no-cache, Postman-Token: 6129382f-b0e8-4fc1-b7ae-487fce533d43, Connection: keep-alive, Accept-Encoding: gzip, deflate"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:12:33,867 INFO: 127.0.0.1 - - [08/Dec/2018 18:12:33] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:13:30,743 INFO: {"date": "Sat Dec  8 18:13:30 2018", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502", "request_method": "GET", "request_headers": "Accept: */*, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Cache-Control: no-cache, Postman-Token: de61134d-2fc4-4c2a-93c5-666b32ba58c1, Connection: keep-alive, Accept-Encoding: gzip, deflate"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:13:30,744 INFO: 127.0.0.1 - - [08/Dec/2018 18:13:30] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:13:34,584 INFO: {"date": "Sat Dec  8 18:13:34 2018", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502", "request_method": "GET", "request_headers": "Accept: */*, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Cache-Control: no-cache, Postman-Token: 4d769a55-5b80-4663-a9b2-4c2e647ee140, Connection: keep-alive, Accept-Encoding: gzip, deflate"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:13:34,584 INFO: 127.0.0.1 - - [08/Dec/2018 18:13:34] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:13:50,006 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:14:14,671 INFO: {"response_status_code": "502", "date": "Sat Dec  8 18:14:14 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "remote_addr": "127.0.0.1", "request_headers": "Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Accept: */*, Connection: keep-alive, Postman-Token: 93cece76-72ca-434f-9eae-f47c819373f2, Cache-Control: no-cache"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:14:14,672 INFO: 127.0.0.1 - - [08/Dec/2018 18:14:14] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:14:28,180 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 693, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 288, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+2018-12-08 18:14:28,181 INFO: {"response_status_code": "500", "date": "Sat Dec  8 18:14:28 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "remote_addr": "127.0.0.1", "request_headers": "Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Accept: */*, Connection: keep-alive, Postman-Token: 2dff6801-58f2-4659-9a83-f7c09befa67e, Cache-Control: no-cache"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:14:28,182 INFO: 127.0.0.1 - - [08/Dec/2018 18:14:28] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:14:35,727 INFO: {"response_status_code": "502", "date": "Sat Dec  8 18:14:35 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "remote_addr": "127.0.0.1", "request_headers": "Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Accept: */*, Connection: keep-alive, Postman-Token: 49989d79-3d3d-4b08-a5a6-fd95538b6de9, Cache-Control: no-cache"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:14:35,728 INFO: 127.0.0.1 - - [08/Dec/2018 18:14:35] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:14:37,839 INFO: {"response_status_code": "502", "date": "Sat Dec  8 18:14:37 2018", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "remote_addr": "127.0.0.1", "request_headers": "Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Host: localhost:3500, Accept: */*, Connection: keep-alive, Postman-Token: 7717cc10-2805-454b-aa17-3d8ec87066d2, Cache-Control: no-cache"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:14:37,840 INFO: 127.0.0.1 - - [08/Dec/2018 18:14:37] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:14:45,110 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:14:49,199 INFO: {"remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_method": "GET", "request_headers": "Postman-Token: 814ef6d1-3dba-4f81-8740-506419f321da, Accept-Encoding: gzip, deflate, Accept: */*, Host: localhost:3500, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Connection: keep-alive", "date": "Sat Dec  8 18:14:49 2018", "response_status_code": "502"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:14:49,200 INFO: 127.0.0.1 - - [08/Dec/2018 18:14:49] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:15:47,815 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:23:38,945 INFO: {"request_method": "GET", "date": "Sat Dec  8 18:23:38 2018", "response_status_code": "400", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_headers": "Connection: keep-alive, Postman-Token: 3456e129-7d34-4af0-a074-88333e771898, Accept: */*, Host: localhost:3500, Cache-Control: no-cache, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0", "remote_addr": "127.0.0.1"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:23:38,946 INFO: 127.0.0.1 - - [08/Dec/2018 18:23:38] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 400 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:29:31,665 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:32:10,961 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:32:48,429 INFO: {"response_status_code": "502", "request_method": "GET", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 18:32:48 2018", "request_headers": "Connection: keep-alive, Cache-Control: no-cache, Postman-Token: 825834db-1141-4c86-bfab-f61e4151fa04, User-Agent: PostmanRuntime/7.4.0, Accept-Encoding: gzip, deflate, Accept: */*, Host: localhost:3500", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 340]
+2018-12-08 18:32:48,430 INFO: 127.0.0.1 - - [08/Dec/2018 18:32:48] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:35:54,361 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:36:37,858 INFO: {"response_status_code": "502", "request_headers": "Accept: */*, User-Agent: PostmanRuntime/7.4.0, Connection: keep-alive, Accept-Encoding: gzip, deflate, Cache-Control: no-cache, Host: localhost:3500, Postman-Token: 2456134d-2479-4450-87bc-3be97d9973eb", "date": "Sat Dec  8 18:36:37 2018", "request_method": "GET", "remote_addr": "127.0.0.1", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 340]
+2018-12-08 18:36:37,859 INFO: 127.0.0.1 - - [08/Dec/2018 18:36:37] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:37:10,297 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:37:14,461 INFO: {"request_method": "GET", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 18:37:14 2018", "request_headers": "Postman-Token: 8eeb7bac-81e0-4d97-9085-99b179edfbd2, Connection: keep-alive, Host: localhost:3500, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Accept-Encoding: gzip, deflate, Accept: */*", "response_status_code": "502", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 339]
+2018-12-08 18:37:14,462 INFO: 127.0.0.1 - - [08/Dec/2018 18:37:14] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:38:23,191 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 18:52:12,744 ERROR: Exception on /run_batch [GET] [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py: app: log_exception: 1761]
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1260, in connect
+    server_hostname=server_hostname)
+  File "/usr/lib/python3.5/ssl.py", line 377, in wrap_socket
+    _context=self)
+  File "/usr/lib/python3.5/ssl.py", line 752, in __init__
+    self.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 988, in do_handshake
+    self._sslobj.do_handshake()
+  File "/usr/lib/python3.5/ssl.py", line 633, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:629: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py", line 289, in run_batch
+    ret = site_scraper.business_info()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 255, in business_info
+    self._extract_page_tree()
+  File "/home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/extract_data.py", line 347, in _extract_page_tree
+    contents = urllib.request.urlopen(request, timeout=20).read()
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error _ssl.c:629: The handshake operation timed out>
+2018-12-08 18:52:12,753 INFO: {"response_status_code": "500", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_headers": "Accept: */*, Connection: keep-alive, Postman-Token: cf2be693-6201-4545-91e5-308cbc2ac283, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Host: localhost:3500", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 18:52:12 2018"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 340]
+2018-12-08 18:52:12,753 INFO: 127.0.0.1 - - [08/Dec/2018 18:52:12] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 500 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 19:02:10,218 INFO: {"response_status_code": "502", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "request_headers": "Accept: */*, Connection: keep-alive, Postman-Token: 359de5f2-0c6c-4bcf-83f7-c87ac528c287, Accept-Encoding: gzip, deflate, User-Agent: PostmanRuntime/7.4.0, Cache-Control: no-cache, Host: localhost:3500", "remote_addr": "127.0.0.1", "date": "Sat Dec  8 19:02:10 2018"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 340]
+2018-12-08 19:02:10,219 INFO: 127.0.0.1 - - [08/Dec/2018 19:02:10] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 19:05:06,133 INFO:  * Running on http://0.0.0.0:3500/ (Press CTRL+C to quit) [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 19:05:09,680 INFO: {"remote_addr": "127.0.0.1", "date": "Sat Dec  8 19:05:09 2018", "request_headers": "Connection: keep-alive, Host: localhost:3500, Accept: */*, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept-Encoding: gzip, deflate, Postman-Token: f7d1f82d-33ca-44f7-bd4c-59b52e5181e3", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "502"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 344]
+2018-12-08 19:05:09,681 INFO: 127.0.0.1 - - [08/Dec/2018 19:05:09] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 502 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]
+2018-12-08 19:21:24,095 INFO: {"remote_addr": "127.0.0.1", "date": "Sat Dec  8 19:21:24 2018", "request_headers": "Connection: keep-alive, Host: localhost:3500, Accept: */*, Cache-Control: no-cache, User-Agent: PostmanRuntime/7.4.0, Accept-Encoding: gzip, deflate, Postman-Token: e9436edd-389d-4b41-a510-f33dda37b374", "request_method": "GET", "request_url": "http://localhost:3500/run_batch?url=https:%2F%2Fwww.yelp.com%2Fbiz%2Fencarnacion-beverly-pa-dunedin\n&site=www.yelp.com", "response_status_code": "200"} [in /home/ajith/Projects/Webscrap/webscrapping/Yelp/spiders/crawler_service.py: crawler_service: post_request_logging: 344]
+2018-12-08 19:21:24,095 INFO: 127.0.0.1 - - [08/Dec/2018 19:21:24] "GET /run_batch?url=https://www.yelp.com/biz/encarnacion-beverly-pa-dunedin%0A&site=www.yelp.com HTTP/1.1" 200 - [in /home/ajith/virtuals/scrapy_p3/lib/python3.5/site-packages/werkzeug/_internal.py: _internal: _log: 88]

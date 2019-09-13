@@ -1,0 +1,51 @@
+{
+    "address": "10700 Caribbean Blvd\nSte 315",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "Williams Wayne, MD",
+    "categories": [
+        "Internal Medicine"
+    ],
+    "city": "Miami",
+    "external_system_unique_id": 142,
+    "friday_close_time": "5:00 pm",
+    "friday_open_time": "9:00 am",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "5:00 pm",
+    "monday_open_time": "9:00 am",
+    "phone": [
+        "(305) 238-2961"
+    ],
+    "photos": [
+        {
+            "description": "Management and Staff",
+            "url": "https://s3-media1.fl.yelpcdn.com/bphoto/UGhCmCrW0_Py8erVzCKSrw/ls.jpg"
+        },
+        {
+            "description": "Dr. Wayne Williams",
+            "url": "https://s3-media2.fl.yelpcdn.com/bphoto/rgZSZMCL-mjT6NtzCC7MuQ/ls.jpg"
+        },
+        {
+            "description": "Dr. Wayne Williams M.D., F.A.C.P.",
+            "url": "https://s3-media1.fl.yelpcdn.com/bphoto/g7hqPNaBlMLyWwyH1M3S3Q/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "Closed",
+    "saturday_open_time": "Closed",
+    "state": "FL",
+    "sunday_close_time": "Closed",
+    "sunday_open_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "thursday_open_time": "9:00 am",
+    "tuesday_close_time": "5:00 pm",
+    "tuesday_open_time": "9:00 am",
+    "website": "waynewilliamsmdfacp.com",
+    "wednesday_close_time": "5:00 pm",
+    "wednesday_open_time": "9:00 am",
+    "yelp_id": "y6WgR-cM3nhTMxRx6DsdbQ",
+    "zip": "33189"
+}

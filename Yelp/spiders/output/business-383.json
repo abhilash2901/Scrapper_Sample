@@ -1,0 +1,47 @@
+{
+    "address": "4600 N Habana Ave\nSte 12",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "MD & Wellness Center",
+    "categories": [
+        "Family Practice"
+    ],
+    "city": "Tampa",
+    "external_system_unique_id": 383,
+    "friday_close_time": "4:00 pm",
+    "friday_open_time": "8:00 am",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "4:00 pm",
+    "monday_open_time": "8:00 am",
+    "phone": [
+        "(813) 876-7700"
+    ],
+    "photos": [
+        {
+            "description": "Practice Logo",
+            "url": "https://s3-media3.fl.yelpcdn.com/bphoto/ZvkRSqK69tthX5gKt54Jgw/ls.jpg"
+        },
+        {
+            "description": "MD & Wellness Center: Jose Cruz, MD is a\u2026",
+            "url": "https://s3-media4.fl.yelpcdn.com/bphoto/NdvZgAse5h59b8v9pa6mqA/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "Closed",
+    "saturday_open_time": "Closed",
+    "state": "FL",
+    "sunday_close_time": "Closed",
+    "sunday_open_time": "Closed",
+    "thursday_close_time": "4:00 pm",
+    "thursday_open_time": "8:00 am",
+    "tuesday_close_time": "4:00 pm",
+    "tuesday_open_time": "8:00 am",
+    "website": "mdwellnesscenter.com",
+    "wednesday_close_time": "4:00 pm",
+    "wednesday_open_time": "8:00 am",
+    "yelp_id": "1iE7sgBT6hCGy87R7dKlQA",
+    "zip": "33614"
+}

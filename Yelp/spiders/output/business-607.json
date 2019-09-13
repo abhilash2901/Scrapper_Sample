@@ -1,0 +1,38 @@
+{
+    "address": "639 N Mills Ave",
+    "monday_open_time": "9:00 am",
+    "categories": [
+        "Family Practice"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "Mark Hoang, MD",
+    "lat": null,
+    "price": null,
+    "zip": "32803",
+    "tuesday_close_time": "5:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "5:00 pm",
+    "state": "FL",
+    "yelp_id": "PQzoLryrV52HeB85vJQ7ig",
+    "thursday_open_time": "9:00 am",
+    "saturday_close_time": "Closed",
+    "external_system_unique_id": 607,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "saturday_open_time": "Closed",
+    "phone": [
+        "+1-407-897-3260"
+    ],
+    "friday_open_time": "9:00 am",
+    "friday_close_time": "5:00 pm",
+    "website": "drmarkhoang.com",
+    "city": "Orlando",
+    "monday_close_time": "5:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "9:00 am",
+    "lng": null,
+    "tuesday_open_time": "9:00 am"
+}

@@ -1,0 +1,38 @@
+{
+    "address": "3131 Clark Rd\nSte 201",
+    "monday_open_time": "8:45 am",
+    "categories": [
+        "Family Practice"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "Sarasota Primary Care",
+    "lat": null,
+    "price": null,
+    "zip": "34231",
+    "tuesday_close_time": "5:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "5:00 pm",
+    "state": "FL",
+    "yelp_id": "fVLPBVGUozfj124Dx2wq6A",
+    "thursday_open_time": "8:45 am",
+    "saturday_close_time": "Closed",
+    "external_system_unique_id": 453,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "saturday_open_time": "Closed",
+    "phone": [
+        "(941) 922-1400"
+    ],
+    "friday_open_time": "8:45 am",
+    "friday_close_time": "5:00 pm",
+    "website": "sarasotaprimarycare.com",
+    "city": "Sarasota",
+    "monday_close_time": "5:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "8:45 am",
+    "lng": null,
+    "tuesday_open_time": "8:45 am"
+}

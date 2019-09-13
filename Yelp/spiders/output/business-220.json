@@ -1,0 +1,38 @@
+{
+    "address": "1621 W 1st St",
+    "monday_open_time": null,
+    "categories": [
+        "Doctors"
+    ],
+    "sunday_open_time": null,
+    "photos": null,
+    "business_name": "Sanford Medical Group",
+    "lat": null,
+    "price": null,
+    "zip": "32771",
+    "tuesday_close_time": null,
+    "google_place_id": null,
+    "wednesday_close_time": null,
+    "state": "FL",
+    "yelp_id": "JdpVdLGBpOn70ucg48kAjw",
+    "thursday_open_time": null,
+    "saturday_close_time": null,
+    "external_system_unique_id": 220,
+    "sunday_close_time": null,
+    "thursday_close_time": null,
+    "saturday_open_time": null,
+    "phone": [
+        "+1-407-322-4431"
+    ],
+    "friday_open_time": null,
+    "friday_close_time": null,
+    "website": null,
+    "city": "Sanford",
+    "monday_close_time": null,
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": null,
+    "lng": null,
+    "tuesday_open_time": null
+}

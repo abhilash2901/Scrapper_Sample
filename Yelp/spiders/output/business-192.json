@@ -1,0 +1,38 @@
+{
+    "address": "101 E Wood St",
+    "monday_open_time": null,
+    "categories": [
+        "Hospitals"
+    ],
+    "sunday_open_time": null,
+    "photos": null,
+    "business_name": "Spartanburg Regional Medical Center",
+    "lat": null,
+    "price": null,
+    "zip": "29303",
+    "tuesday_close_time": null,
+    "google_place_id": null,
+    "wednesday_close_time": null,
+    "state": "SC",
+    "yelp_id": "AcyEhqot_vVyaynpHL2TAQ",
+    "thursday_open_time": null,
+    "saturday_close_time": null,
+    "external_system_unique_id": 192,
+    "sunday_close_time": null,
+    "thursday_close_time": null,
+    "saturday_open_time": null,
+    "phone": [
+        "(864) 591-7999"
+    ],
+    "friday_open_time": null,
+    "friday_close_time": null,
+    "website": null,
+    "city": "Spartanburg",
+    "monday_close_time": null,
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": null,
+    "lng": null,
+    "tuesday_open_time": null
+}

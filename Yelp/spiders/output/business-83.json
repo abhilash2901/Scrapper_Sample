@@ -1,0 +1,51 @@
+{
+    "address": "601 E Altamonte Dr",
+    "after_price_label": null,
+    "before_price_label": null,
+    "business_description": null,
+    "business_name": "Florida Hospital Altamonte",
+    "categories": [
+        "Hospitals"
+    ],
+    "city": "Altamonte Springs",
+    "external_system_unique_id": 83,
+    "friday_close_time": "Open 24 hours",
+    "friday_open_time": "Open 24 hours",
+    "google_place_id": null,
+    "lat": null,
+    "lng": null,
+    "monday_close_time": "Open 24 hours",
+    "monday_open_time": "Open 24 hours",
+    "phone": [
+        "(407) 303-2200"
+    ],
+    "photos": [
+        {
+            "description": "Photo of Florida Hospital Altamonte - Altamonte Springs, FL, United States",
+            "url": "https://s3-media3.fl.yelpcdn.com/bphoto/B6iWHZWrz85AHlS_RTNRqw/ls.jpg"
+        },
+        {
+            "description": "Photo of Florida Hospital Altamonte - Altamonte Springs, FL, United States",
+            "url": "https://s3-media3.fl.yelpcdn.com/bphoto/kZxoF5BwdbEj1a855pJ8wQ/ls.jpg"
+        },
+        {
+            "description": "Photo of Florida Hospital Altamonte - Altamonte Springs, FL, United States",
+            "url": "https://s3-media2.fl.yelpcdn.com/bphoto/XeVE7QigHk1uErOtfP675g/ls.jpg"
+        }
+    ],
+    "price": null,
+    "saturday_close_time": "Open 24 hours",
+    "saturday_open_time": "Open 24 hours",
+    "state": "FL",
+    "sunday_close_time": "Open 24 hours",
+    "sunday_open_time": "Open 24 hours",
+    "thursday_close_time": "Open 24 hours",
+    "thursday_open_time": "Open 24 hours",
+    "tuesday_close_time": "Open 24 hours",
+    "tuesday_open_time": "Open 24 hours",
+    "website": "floridahospital.com",
+    "wednesday_close_time": "Open 24 hours",
+    "wednesday_open_time": "Open 24 hours",
+    "yelp_id": "dOl_lrLf1NbHZ63S3r0rSA",
+    "zip": "32701"
+}

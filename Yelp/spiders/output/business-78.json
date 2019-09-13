@@ -1,0 +1,40 @@
+{
+    "address": "1040 SW 2nd Ave",
+    "monday_open_time": "7:30 am",
+    "categories": [
+        "Medical Centers",
+        "Internal Medicine",
+        "Cardiologists"
+    ],
+    "sunday_open_time": "Closed",
+    "photos": null,
+    "business_name": "Marion Physicians Associates",
+    "lat": null,
+    "price": null,
+    "zip": "34471",
+    "tuesday_close_time": "5:00 pm",
+    "google_place_id": null,
+    "wednesday_close_time": "5:00 pm",
+    "state": "FL",
+    "yelp_id": "T0CwuIa_mEC2PfLd7NgDkw",
+    "thursday_open_time": "7:30 am",
+    "saturday_close_time": "Closed",
+    "external_system_unique_id": 78,
+    "sunday_close_time": "Closed",
+    "thursday_close_time": "5:00 pm",
+    "saturday_open_time": "Closed",
+    "phone": [
+        "(352) 732-3005"
+    ],
+    "friday_open_time": "7:30 am",
+    "friday_close_time": "5:00 pm",
+    "website": "marionphysicianassociates.com",
+    "city": "Ocala",
+    "monday_close_time": "5:00 pm",
+    "business_description": null,
+    "after_price_label": null,
+    "before_price_label": null,
+    "wednesday_open_time": "7:30 am",
+    "lng": null,
+    "tuesday_open_time": "7:30 am"
+}
